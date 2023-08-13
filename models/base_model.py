@@ -6,7 +6,6 @@
 
 import uuid
 from datetime import datetime
-from .__init__ import storage
 
 class BaseModel:
     """Initialize a new BaseModel instance.
@@ -26,7 +25,6 @@ class BaseModel:
         self.updated_at = datetime.now()
         self.id = str(uuid.uuid4())
         self.created_at = datetime.now()
-        storage.new(self)
 
     def __str__(self):
         """Return strrr"""
@@ -37,7 +35,6 @@ class BaseModel:
         """Update attribute save"""
 
         self.updated_at = datetime.now()
-        storage.save()
 
     def to_dict(self):
         """Convert the BaseModel instance to a dictionary.
