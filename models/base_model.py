@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""task3"""
+"""def base
+    by zak
+"""
 
 
 import uuid
