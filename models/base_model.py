@@ -1,13 +1,18 @@
 #!/usr/bin/python3
-# task3
+"""task3"""
+
 
 import uuid
 from datetime import datetime
 
 
 class BaseModel:
-    """ clasa baseModel"""
+    """Initialize a new BaseModel instance.
 
+    Args:
+        my_number (int): An optional integer value.
+        name (str): An optional string value.
+    """
     def __init__(self, my_number=None, name=None):
         """init"""
         if name is not None and my_number is not None:
