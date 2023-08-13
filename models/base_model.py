@@ -26,18 +26,21 @@ class BaseModel:
         self.created_at = datetime.now()
 
     def __str__(self):
-        """ instance strrr"""
+        """Return strrr"""
 
         return f"[BaseModel] ({self.id}) {self.__dict__}"
 
     def save(self):
-        """ instance save"""
+        """Update attribute save"""
 
         self.updated_at = datetime.now()
 
     def to_dict(self):
-        """ instance dic"""
+        """Convert the BaseModel instance to a dictionary.
 
+        Returns:
+            dict: A dictionary representation of the BaseModel instance.
+        """
         delta = self.__dict__.copy()
         delta['__class__'] = type(self).__name__
         if self.created_at is not None:
