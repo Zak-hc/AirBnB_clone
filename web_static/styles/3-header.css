@@ -3,5 +3,9 @@ header{
     color: white;
     width:100%;
     border-bottom: 1px #CCCCC ;
-    
+}
+.logo{
+background-image: url(Zak-hc/AirBnB_clone/web_static/images);
+width: 142;
+height: 60;
 }
