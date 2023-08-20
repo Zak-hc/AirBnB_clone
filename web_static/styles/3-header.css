@@ -5,7 +5,8 @@ header{
     border-bottom: 1px #CCCCC ;
 }
 .logo{
-background-image: url(Zak-hc/AirBnB_clone/web_static/images);
-width: 142;
-height: 60;
+background-image: url("/web_static/images/kisspng-power-bi-logo-business-intelligence-font-data-datacarrot-bespoke-development-service-5c5af4c0c58594.6941448015494647688091.jpg");
+width: 300;
+height: 300;
+margin-right: 20;
 }
