@@ -1,9 +1,10 @@
 footer{
-    color:white;
+    color:black;
     height: 70px;
     width: 100%;
     border-top: 1px #CCCCCC;
     bottom:0px;
     text-align:center;
     position:fixed;
+    border-bottom: 4;
 }

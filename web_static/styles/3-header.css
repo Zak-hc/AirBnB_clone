@@ -5,8 +5,10 @@ header{
     border-bottom: 1px #CCCCC ;
 }
 .logo{
-background-image: url("/web_static/images/kisspng-power-bi-logo-business-intelligence-font-data-datacarrot-bespoke-development-service-5c5af4c0c58594.6941448015494647688091.jpg");
+background-image: url("images /logo.png");
+background-repeat: no-repeat;
+border-top: 1 solid black;
 width: 300;
 height: 300;
-margin-right: 20;
+margin-left: 20;
 }
